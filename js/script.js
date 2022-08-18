@@ -175,7 +175,7 @@ async function changeDestination(option) {
     let europaData
     let titanData
 
-    await fetch('./data.json')
+    await fetch('https://francobernardii.github.io/Space-Web/data.json')
     .then(response => {
         return response.json();
     })
@@ -260,7 +260,7 @@ async function changeCrew(option) {
     let memberThreeData
     let memberFourData
 
-    await fetch("./data.json")
+    await fetch("https://francobernardii.github.io/Space-Web/data.json")
     .then(response => {
         return response.json();
     })
@@ -339,7 +339,7 @@ async function changeTechnology(option) {
     let technologyTwoData
     let technologyThreeData
 
-    await fetch("./data.json")
+    await fetch("https://francobernardii.github.io/Space-Web/data.json")
     .then(response => {
         return response.json();
     })
