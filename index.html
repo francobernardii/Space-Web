@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Web</title>
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body class="bodyHome">
+    
+    <header class="dFlex">
+        <div id="menuHamburguesa" class="menu-hamburguesa dFlex">
+            <img id="buttonHamburguesa" src="assets/shared/icon-hamburger.svg" alt="logo">
+            <div class="opened dFlex">
+                <ul class="dFlex">
+                    <li class="dFlex selected navHome"><b>00</b>HOME</li>
+                    <li class="dFlex navDestination"><b>01</b>DESTINATION</li>
+                    <li class="dFlex navCrew"><b>02</b>CREW</li>
+                    <li class="dFlex navTechnology"><b>03</b>TECHNOLOGY</li>
+                </ul>
+            </div>
+        </div>
+        <div class="logo-container dFlex">
+            <img id="logoHome" src="assets/shared/logo.svg" alt="Logo">
+        </div>
+        <div class="nav-container dFlex">
+            <nav class="dFlex">
+                <ul class="dFlex">
+                    <li class="dFlex selected navHome"><b>00</b>HOME</li>
+                    <li class="dFlex navDestination"><b>01</b>DESTINATION</li>
+                    <li class="dFlex navCrew"><b>02</b>CREW</li>
+                    <li class="dFlex navTechnology"><b>03</b>TECHNOLOGY</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sectionHome" class="container-home dFlex">
+        <div class="container-text dFlex">
+            <div class="text1">SO, YOU WANT TO TRAVEL TO</div>
+            <div class="text2">SPACE</div>
+            <div class="text3">Let's face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we'll give you a truly out of this world experience!</div>
+        </div>
+        <div class="container-button dFlex">
+            <button id="buttonExplore" type="button">EXPLORE</button>
+        </div>
+    </section>
+    <section id="sectionDestination" class="container-destination dNone">
+        <div class="container-left dFlex">
+            <div class="container-title dFlex">
+                <h1><span>01</span> PICK YOUR DESTINATION</h1>
+            </div>
+            <div class="container-image dFlex">
+                <img id="destinationImage" src="assets/destination/image-moon.png" alt="Mars">
+            </div>
+        </div>
+        <div class="container-right dFlex">
+            <div class="container-options">
+                <ul class="dFlex">
+                    <li id="destinationMoon" class="selected">MOON</li>
+                    <li id="destinationMars">MARS</li>
+                    <li id="destinationEuropa">EUROPA</li>
+                    <li id="destinationTitan">TITAN</li>
+                </ul>
+            </div>
+            <div class="container-title">
+                <h1 id="destinationTitle">MOON</h1>
+            </div>
+            <div class="container-description">
+                <p id="destinationDescription">
+                    See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+                </p>
+            </div>
+            <div class="container-details dFlex">
+                <div class="container-distance">
+                    <span>AVG. DISTANCE</span>
+                    <p id="destinationDistance">384,400 km</p>
+                </div>
+                <div class="container-time">
+                    <span>EST. TRAVEL TIME</span>
+                    <p id="destinationTime">3 days</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sectionCrew" class="container-crew dNone">
+        <div class="container-info dFlex">
+            <div class="container-title dFlex">
+                <h1><b>02</b> MEET YOUR CREW</h1>
+            </div>
+            <div class="container-job dFlex">
+                <span id="crewRol">COMMANDER</span>
+            </div>
+            <div class="container-name dFlex">
+                <h3 id="crewName">DOUGLAS HURLEY</h3>
+            </div>
+            <div class="container-description dFlex">
+                <p id="crewBio">
+                    Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.
+                </p>
+            </div>
+            <div class="container-dots dFlex">
+                <span class="dot selected"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+        <div class="container-image dFlex">
+            <div class="marco-image">
+                <img id="crewImage" src="assets/crew/image-douglas-hurley.png" alt="Crew Image">
+            </div>
+        </div>
+    </section>
+    <section id="sectionTechnology" class="container-technology dNone">
+        <div class="container-info dFlex">
+            <div class="container-title dFlex">
+                <h1><b>03</b> SPACE LAUNCH 101</h1>
+            </div>
+            <div class="container-details dFlex">
+                <div class="container-dots dFlex">
+                    <span id="technology1" class="dFlex selected">1</span>
+                    <span id="technology2" class="dFlex">2</span>
+                    <span id="technology3" class="dFlex">3</span>
+                </div>
+                <div class="container-info dFlex">
+                    <div class="container-info-extra dFlex">
+                        <span>THE TERMINOLOGY...</span>
+                    </div>
+                    <div class="container-name dFlex">
+                        <h1 id="technologyTitle">LAUNCH VEHICLE</h1>
+                    </div>
+                    <div class="container-description dFlex">
+                        <p id="technologyDescription">
+                            A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-image dFlex">
+            <div class="marco-image dFlex">
+                <img id="technologyImage" src="assets/technology/image-launch-vehicle-portrait.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="dFlex">
+        <p>
+            Challenge by <a target="_blank" href="https://www.frontendmentor.io/">Frontend Mentor</a>. Coded by <a  target="_blank" href="https://www.linkedin.com/in/francobernardi/">Franco Bernardi</a>
+        </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
